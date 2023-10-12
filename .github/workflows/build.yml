@@ -11,7 +11,7 @@ jobs:
     name: Create Release
     runs-on: windows-latest
     env:
-      targetZip: machete-portable-${{ github.ref_name }}.zip
+      targetZip: freerouting-portable-${{ github.ref_name }}.zip
     steps:
       - uses: actions/checkout@v3
       
